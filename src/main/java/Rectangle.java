@@ -1,6 +1,12 @@
 public class Rectangle {
 
-  public Rectangle(int length, int width) {
+  private int mLength;
 
+  public Rectangle(int length, int width) {
+    mLength = length;
+  }
+
+  public int getLength() {
+    return mLength;
   }
 }
